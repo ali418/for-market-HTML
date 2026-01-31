@@ -283,7 +283,7 @@ header {
     text-align: center;
     box-shadow: var(--box-shadow);
     margin-top: 40px;
-    border-right: 5px solid var(--accent-color);
+    border-left: 5px solid var(--accent-color);
 }
 
 .summary-box h3 {
