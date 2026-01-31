@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Static site for market HTML",
   "scripts": {
-    "start": "npx serve ."
+    "start": "serve ."
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "serve": "^14.2.1"
