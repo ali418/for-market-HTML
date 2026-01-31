@@ -283,6 +283,13 @@ header {
     text-align: center;
     box-shadow: var(--box-shadow);
     margin-top: 40px;
+}
+
+html[dir="rtl"] .summary-box {
+    border-right: 5px solid var(--accent-color);
+}
+
+html[dir="ltr"] .summary-box {
     border-left: 5px solid var(--accent-color);
 }
 
